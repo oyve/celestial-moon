@@ -30,11 +30,11 @@ function calculate(year, month, day, hours, minutes, seconds, utcOffset = 0) {
     let julianCalculate = gregorianToJulian(year, month, day, hours, minutes, seconds, utcOffset);
 
     let age = (julianCalculate - julianNewMoonReference) % SYNODIC_MONTH;
-    let phase = getPhase(age)
+    let phase = getPhase(age);
 
     return {
         age: roundToTwoDecimals(age),
-        phase: phase.name
+        name: phase.name
     }
 }
 

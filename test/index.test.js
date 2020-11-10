@@ -7,10 +7,10 @@ describe("Moon - Integration Tests", function () {
             //arrange
             const expected = {
                 age: 24.27,
-                phase: 'waning-crescent'
+                name: 'waning-crescent'
             }
             //act
-            const actual = moon.calculate(2020, 11, 10, 9, 30, 00);
+            const actual = moon.calculate(2020, 11, 10, 9, 30, 0, 0);
             //assert
             assert.deepStrictEqual(actual, expected);
         });
