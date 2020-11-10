@@ -1,3 +1,4 @@
+![Node.js CI](https://github.com/oyve/celestial-moon/workflows/Node.js%20CI/badge.svg)
 # celestial-moon
 Calculate the moon phase.
 This is an approximate calculation.
