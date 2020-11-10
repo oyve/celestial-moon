@@ -6,7 +6,7 @@ This is an approximate calculation.
 ## Install
 
 ```
-$ npm i celestial-sun
+$ npm i celestial-moon
 ```
 
 ```
