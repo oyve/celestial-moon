@@ -3,6 +3,21 @@
 Calculate the moon phase.
 This is an approximate calculation.
 
+## Install
+
+```
+$ npm i celestial-sun
+```
+
+```
+const moon = require('celestial-moon');
+
+const phase = moon.calculate(2020, 11, 10, 9, 30, 0, 0);
+
+console.log(phase.age); //since last new moon
+console.log(phase.name); //'waning-crescent'
+```
+
 ## References
 - [Wikipedia - Lunar Phase](https://en.wikipedia.org/wiki/Lunar_phase)
 - [Wikipedia - New Moon](https://en.wikipedia.org/wiki/New_moon)
