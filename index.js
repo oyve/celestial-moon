@@ -1,4 +1,3 @@
-
 const MINUTES_IN_DAY = 24 * 60;
 const SECONDS_IN_DAY = MINUTES_IN_DAY * 60;
 const SYNODIC_MONTH = 29.530588853;
@@ -12,7 +11,7 @@ const MOON_PHASES = [
     { name: 'waning-gibbous', end: 21.14794077932 },
     { name: 'last-quarter', end: 23.14794077932 },
     { name: 'waning-crescent', end: 28.53058770576 },
-    { name: 'new-moon', end: 29.53058770576 }
+    { name: 'new-moon', end: SYNODIC_MONTH }
 ]
 
 /**
