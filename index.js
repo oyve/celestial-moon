@@ -25,7 +25,7 @@ const MOON_PHASES = [
  * @param {number} utcOffset Timezone offset to UTC, i.e. -4 or +4
  */
 function calculate(year, month, day, hours, minutes, seconds, utcOffset = 0) {
-    let julianNewMoonReference = gregorianToJulian(2000, 1, 6, 18, 14, 0, 0); //Lunation Number 18:14 UTC, January 6, 200
+    let julianNewMoonReference = gregorianToJulian(2000, 1, 6, 18, 14, 0, 0); //Lunation Number 18:14 UTC, January 6, 2000
     let julianCalculate = gregorianToJulian(year, month, day, hours, minutes, seconds, utcOffset);
 
     let age = (julianCalculate - julianNewMoonReference) % SYNODIC_MONTH;
