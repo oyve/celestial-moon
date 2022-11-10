@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/oyve/celestial-moon#readme",
   "devDependencies": {
-    "mocha": "^8.2.1"
+    "mocha": "^10.1.0"
   }
 }
