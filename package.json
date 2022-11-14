@@ -1,6 +1,6 @@
 {
   "name": "celestial-moon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calculate the moon phase",
   "main": "index.js",
   "scripts": {
